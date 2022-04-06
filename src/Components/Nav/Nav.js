@@ -1,4 +1,5 @@
 import './Nav.css';
+import { NavLink } from 'react-router-dom';
 
 const Nav = () => {
     return (
@@ -7,10 +8,10 @@ const Nav = () => {
                <p>Hi - I'm Colgan. :)</p>
             </div>
             <div className='nav-links'>
-                <p>About Me</p>
-                <p>Projects</p>
+                <NavLink to='/'>About Me</NavLink>
+                <NavLink to='/projects'>Projects</NavLink>
                 <p>Resume</p>
-                <p>Let's Connect</p>
+                <NavLink to='/contact'>Let's Connect!</NavLink>
             </div>
         </div>
     )
