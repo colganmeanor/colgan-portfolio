@@ -1,0 +1,10 @@
+.contact-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-methods {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
