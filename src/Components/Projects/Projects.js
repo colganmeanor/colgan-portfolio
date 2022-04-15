@@ -1,9 +1,15 @@
-
+import { Project } from "../Project/Project"
+import { projectData } from "../../Data/project_data"
 
 const Projects = () => {
+
+    const projects = projectData.map((proj) => {
+        return <Project project={proj}/>
+    })
+
     return (
         <div>
-            <p>This will be the project section</p>
+            {projects}
         </div>
     )
 }
