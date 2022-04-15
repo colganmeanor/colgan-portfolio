@@ -9,6 +9,33 @@ export const projectData = [
         deployedURL: '',
         githubURL: '',
         achievements: [''],
+        contributions: '',
         screenshots: ['']
-    }
+    },
+    {
+        name: '',
+        description: '',
+        hours: 0,
+        days: 0,
+        developers: 0,
+        technologies: [''],
+        deployedURL: '',
+        githubURL: '',
+        achievements: [''],
+        contributions: '',
+        screenshots: ['']
+    },
+    {
+        name: '',
+        description: '',
+        hours: 0,
+        days: 0,
+        developers: 0,
+        technologies: [''],
+        deployedURL: '',
+        githubURL: '',
+        achievements: [''],
+        contributions: '',
+        screenshots: ['']
+    },
 ]
